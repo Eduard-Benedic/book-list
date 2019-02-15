@@ -55,7 +55,7 @@ UI.prototype.clearFields = function() {
   document.querySelector('#isbn').value = '';
 
 }
-
+{}
 document.addEventListener('submit', function(e){
   const title = document.querySelector('#title').value,
         author = document.querySelector('#author').value,
